@@ -4,9 +4,9 @@ const TechnicalSkill = () => (
   <section style={{ padding: '20px' }}>
     <h2>Technical Skills</h2>
     <p>
-        <strong>Frontend:</strong> JavaScript (ES6+), TypeScript, Objective-C, Java (Android).<br />
-        <strong>Frameworks/Libraries:</strong>React Native, React js, iOS, Android<br />
-        <strong>Backend/Databases:</strong>MySQL, SQLite, CoreData, Realtime database, Firebase Database<br />
+        <strong>Frontend:</strong> JavaScript (ES6+), TypeScript, Objective-C, Java (Android). Kotlin, Core Java(OOPs concepts), Dart<br />
+        <strong>Frameworks/Libraries:</strong>React Native, React, React js, Flutter, iOS, Android<br />
+        <strong>Backend/Databases:</strong>MySQL, SQLite, CoreData, Realtime database, Firebase Database, API and web service integration(SOAP, REST, JSON, XML)<br />
         <strong>Tools:</strong> Xcode, Android Studio, GitHub, Azure DevOps, CI/CD, Postman,  AppLanga, New Relic, Postman<br />
         <strong>Security Management:</strong> SSL Encryption, Encryption & Decryption, Local storage and Keychain, Oauth 2.0, JWT.<br />
         <strong>Design:</strong> Figma, zeplin, Adobe XD<br />
@@ -21,6 +21,7 @@ const TechnicalSkill = () => (
       Resolved performance issues and bottlenecks in production<br />
       Led team in code reviews, architecture, and technical design decisions.<br />
       Strong communicator with problem-solving abilities.<br /> 
+      Handled client calls, emails, and meetings to clarify expectations and resolve issues efficiently.<br /> 
 </p>
   </section>
 );

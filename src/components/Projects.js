@@ -14,7 +14,7 @@ const projects = [
   {
     id: 2,//
     title: "MyFIRST Salary App ( BFSI, Bank App )",
-    platform: "React Native (Android, ios, Redux, ES6+, SSL Pinning)",
+    platform: "Android, ios",
     description:
       "This app is used for creating a corporate salary account in IDFC bank. This app is developed for IDFC bank",
     link: "https://play.google.com/store/apps/details?id=com.idfcfirstbank.csapp",
@@ -50,7 +50,7 @@ const projects = [
    {
     id: 6,
     title: "Msheireb cars App",
-    platform: "React native(Android, iOS, Bilingual-English and Arabic)",
+    platform: "Flutter (Android, iOS, Bilingual-English and Arabic)",
     description:
       "This app shows Vehicles List, Detail, Finance Calculating, Vehicles search different criteria",
     link: "https://play.google.com/store/apps/details?id=com.msheirebcars",
