@@ -1,17 +1,23 @@
 import './App.css';
+import NavBar from './components/NavBar';
 import Header from './components/Header';
 import About from './components/About';
-import Projects from './components/Projects';
-import Footer from './components/Footer';
 import TechnicalSkill from './components/TechnicalSkill';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-      <Header />
-      <About />
-      <TechnicalSkill />
-      <Projects />
+      <NavBar />
+      <main>
+        <Header />
+        <About />
+        <Projects />
+        <TechnicalSkill />
+        <Contact />
+      </main>
       <Footer />
     </>
   );

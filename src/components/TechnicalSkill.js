@@ -1,31 +1,32 @@
 import React from 'react';
+import { skills, leadership } from '../data/portfolio';
 
 const TechnicalSkill = () => (
-  <section style={{ padding: '20px' }}>
-    <h2>Technical Skills</h2>
-    <p>
-        <strong>Frontend:</strong> JavaScript (ES6+), TypeScript, Objective-C, Java (Android). Kotlin, Core Java(OOPs concepts), Dart<br />
-        <strong>Frameworks/Libraries:</strong>React Native, React, React js, Flutter, iOS, Android<br />
-        <strong>Backend/Databases:</strong>MySQL, SQLite, CoreData, Realtime database, Firebase Database, API and web service integration(SOAP, REST, JSON, XML)<br />
-        <strong>Tools:</strong> Xcode, Android Studio, GitHub, Azure DevOps, CI/CD, Postman,  AppLanga, New Relic, Postman<br />
-        <strong>Security Management:</strong> SSL Encryption, Encryption & Decryption, Local storage and Keychain, Oauth 2.0, JWT.<br />
-        <strong>Design:</strong> Figma, zeplin, Adobe XD<br />
-        <strong>Methodologies:</strong> Agile, Scrum, Waterfall<br />
-        <strong>Platforms:</strong> iOS, Android, Web<br />
-        <strong>Libraries/Payment Gateway:</strong>Payment Gateway Integration (Adyen, Stripe, PayPal, CCAvenue)<br />
-        <strong>Other Skills:</strong>Micro Frontend Architecture, Crash reports manage, Unit Testing, UI Testing, Code Review, CI/CD, App Store/Goole Play Store release, App Analytics, Performance Optimization, Accessibility Compliance.
-    </p>
-    <h2>Soft Skills</h2>
-    <p>
-      Collaborated with cross-functional teams including Backend, DevOps, PMs, Designers.<br />
-      Resolved performance issues and bottlenecks in production<br />
-      Led team in code reviews, architecture, and technical design decisions.<br />
-      Strong communicator with problem-solving abilities.<br /> 
-      Handled client calls, emails, and meetings to clarify expectations and resolve issues efficiently.<br /> 
-</p>
+  <section className="section" id="skills">
+    <div className="container">
+      <p className="eyebrow">Skills</p>
+      <h2 className="section__title">Technical skills</h2>
+      <div className="skills">
+        {skills.map(({ group, items }) => (
+          <div key={group} className="skills__group">
+            <h3>{group}</h3>
+            <ul className="chips">
+              {items.map((item) => (
+                <li key={item} className="chip">{item}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+
+      <h3 className="subhead">Leadership &amp; engineering practice</h3>
+      <ul className="checklist">
+        {leadership.map((item) => (
+          <li key={item}>{item}</li>
+        ))}
+      </ul>
+    </div>
   </section>
 );
 
 export default TechnicalSkill;
-
-
