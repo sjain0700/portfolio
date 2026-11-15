@@ -4,7 +4,7 @@ export const profile = {
   name: 'Sunil Kumar Jain',
   role: 'Senior Mobile Apps Engineer · Tech Lead',
   tagline:
-    '15 years building native iOS, native Android and React Native apps — now with Generative AI in both the products I build and the way I build them.',
+    '15 years building React Native apps, native iOS, native Android and  — now with Generative AI in both the products I build and the way I build them.',
   location: 'Dubai, UAE · Open to Abu Dhabi',
   availability: 'Available to join immediately',
   email: 'er.suniljain88@gmail.com',
