@@ -24,7 +24,7 @@ export const stats = [
 ];
 
 export const about = [
-  'Senior Mobile Apps Engineer with 15 years of experience across native iOS, native Android and hybrid apps, nine of them hands-on in React and React Native. I take apps from concept and architecture through to App Store and Google Play release and long-term maintenance.',
+  'Senior Mobile Apps Engineer with 15 years of experience in React Native (nine years hands-on), native iOS, native Android and hybrid apps. I take apps from concept and architecture through to App Store and Google Play release and long-term maintenance.',
   'I build scalable, secure, modular architectures, lead offshore teams, set coding standards, and build the NestJS and ExpressJS APIs behind the apps. I work with Flutter and Ionic-Angular alongside React Native and native code, and I choose an approach by business outcome, not by loyalty to one stack.',
 ];
 
