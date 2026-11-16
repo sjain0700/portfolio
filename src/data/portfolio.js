@@ -4,7 +4,7 @@ export const profile = {
   name: 'Sunil Kumar Jain',
   role: 'Senior Mobile Apps Engineer · Tech Lead',
   tagline:
-    '15 years building React Native apps, native iOS, native Android and  — now with Generative AI in both the products I build and the way I build them.',
+    '15 years building React Native apps, Flutter, native iOS, native Android and  — now with Generative AI in both the products I build and the way I build them.',
   location: 'Dubai, UAE · Open to Abu Dhabi',
   availability: 'Available to join immediately',
   email: 'er.suniljain88@gmail.com',
@@ -24,7 +24,7 @@ export const stats = [
 ];
 
 export const about = [
-  'Senior Mobile Apps Engineer with 15 years of experience in React Native (nine years hands-on), native iOS, native Android and hybrid apps. I take apps from concept and architecture through to App Store and Google Play release and long-term maintenance.',
+  'Senior Mobile Apps Engineer with 15 years of experience in React Native (nine years hands-on), Flutter, native iOS, native Android and hybrid apps. I take apps from concept and architecture through to App Store and Google Play release and long-term maintenance.',
   'I build scalable, secure, modular architectures, lead offshore teams, set coding standards, and build the NestJS and ExpressJS APIs behind the apps. I work with Flutter and Ionic-Angular alongside React Native and native code, and I choose an approach by business outcome, not by loyalty to one stack.',
 ];
 
